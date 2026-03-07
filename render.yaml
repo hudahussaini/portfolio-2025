@@ -2,7 +2,7 @@ services:
   - type: web
     name: huda-portfolio
     runtime: static
-    staticPublishPath: .
+    staticPublishPath: ./
     pullRequestPreviewsEnabled: false
     headers:
       - path: /*
